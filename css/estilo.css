@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+main .populares h2, main .medidas h2, main .subiReceta h2, main .contactos h2 {
+  font-size: 4rem;
+  text-align: center;
+  color: black;
+  margin-bottom: 3.125rem; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  /* background-color: #E9E9D0; */
+  background-color: #cfe1b9;
+  font-family: "Montserrat", sans-serif; }
+
+header {
+  background-image: url(../img/header.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  header h1 {
+    text-align: center;
+    font-size: 7vw;
+    padding-top: 1.875rem; }
+  header .navbar {
+    background-color: #415d43;
+    font-size: 1.5625rem;
+    margin-top: 3.125rem; }
+  header .menu li a {
+    color: white; }
+    header .menu li a:hover {
+      color: #2dc653; }
+
+main {
+  font-size: 1.5625rem; }
+  main .carrusel h2 {
+    color: black; }
+  main .populares {
+    padding-top: 1.25rem;
+    margin: auto; }
+    main .populares .card-cont {
+      padding-bottom: 1.25rem; }
+      main .populares .card-cont .card {
+        background-color: transparent;
+        border: none; }
+        main .populares .card-cont .card .card-img-top {
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+          height: 31.25rem;
+          object-fit: cover; }
+        main .populares .card-cont .card .card-body {
+          border-bottom-left-radius: 20px;
+          border-bottom-right-radius: 20px;
+          border: transparent;
+          color: white;
+          background-color: #709775;
+          background-image: url(../img/header.png);
+          background-repeat: no-repeat;
+          background-size: cover; }
+  main .medidas {
+    padding-top: 1.25rem;
+    margin: auto;
+    margin-bottom: -1.875rem;
+    text-align: justify; }
+    main .medidas img {
+      height: 100vh; }
+  main .subiReceta {
+    padding-top: 1.25rem;
+    margin: auto; }
+  main .contactos {
+    padding-top: 1.25rem;
+    margin: auto; }
+  main .boton {
+    color: white;
+    background-color: #415d43; }
+  main .error-404 {
+    margin-bottom: -3.125rem; }
+
+footer {
+  max-width: 100%;
+  background-color: #415d43;
+  font-size: 1.25rem;
+  margin-top: 3.125rem;
+  grid-area: footer; }
+  footer .footer {
+    list-style: none; }
+    footer .footer .redSocial a {
+      display: inline-block;
+      padding: 0.9375rem 1.25rem;
+      color: white;
+      text-decoration: none;
+      font-size: 2.5rem; }
+    footer .footer .redSocial .twitter:hover {
+      color: #1dabdd; }
+    footer .footer .redSocial .facebook:hover {
+      color: #3b5998; }
+    footer .footer .redSocial .instagram:hover {
+      background: -webkit-linear-gradient(top right, #7f37af, #f70105, #f8d600);
+      /**** la siguiente linea de codigo es la que genera un error, pero sin ella no funciona el degrade en el hover****/
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    footer .footer h3 {
+      color: white;
+      font-size: 2.1875rem; }
